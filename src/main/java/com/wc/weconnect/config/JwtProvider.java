@@ -1,14 +1,12 @@
-package com.WeConnect.config;
-
-import java.util.Date;
-
-import javax.crypto.SecretKey;
-
-import org.springframework.security.core.Authentication;
+package com.wc.weconnect.config;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
+import org.springframework.security.core.Authentication;
+
+import javax.crypto.SecretKey;
+import java.util.Date;
 
 public class JwtProvider {
 	

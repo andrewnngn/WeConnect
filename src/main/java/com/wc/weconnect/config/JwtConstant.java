@@ -1,4 +1,4 @@
-package com.WeConnect.config;
+package com.wc.weconnect.config;
 
 public class JwtConstant {
 	public static String jwt_HEADER = "Authorization";

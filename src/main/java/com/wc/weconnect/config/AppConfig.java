@@ -1,7 +1,4 @@
-//package com.WeConnect.config;
-//
 //import java.util.Collections;
-//
 //import org.springframework.context.annotation.Bean;
 //import org.springframework.context.annotation.Configuration;
 //import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -67,15 +64,11 @@
 
 
 
-package com.WeConnect.config;
+package com.wc.weconnect.config;
 
 
-import java.util.Arrays;
-import java.util.Collections;
-
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.context.annotation.Bean;
-
-import static org.springframework.security.config.Customizer.withDefaults;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -87,7 +80,10 @@ import org.springframework.security.web.authentication.www.BasicAuthenticationFi
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 
-import jakarta.servlet.http.HttpServletRequest;
+import java.util.Arrays;
+import java.util.Collections;
+
+import static org.springframework.security.config.Customizer.withDefaults;
 
 @Configuration
 @EnableWebSecurity
