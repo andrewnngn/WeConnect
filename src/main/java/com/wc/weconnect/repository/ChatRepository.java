@@ -1,13 +1,12 @@
-package com.WeConnect.repository;
+package com.wc.weconnect.repository;
 
-import java.util.List;
-
+import com.WeConnect.models.Chat;
+import com.WeConnect.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.WeConnect.models.Chat;
-import com.WeConnect.models.User;
+import java.util.List;
 
 public interface ChatRepository extends JpaRepository<Chat, Integer>{
 	

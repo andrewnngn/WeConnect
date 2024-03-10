@@ -1,10 +1,9 @@
-package com.WeConnect.repository;
-
-import java.util.List;
-
-import org.springframework.data.jpa.repository.JpaRepository;
+package com.wc.weconnect.repository;
 
 import com.WeConnect.models.Message;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
 
 public interface MessageRepository extends JpaRepository<Message, Integer> {
 	
