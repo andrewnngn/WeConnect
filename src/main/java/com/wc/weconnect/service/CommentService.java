@@ -1,4 +1,4 @@
-package com.WeConnect.service;
+package com.wc.weconnect.service;
 
 import com.WeConnect.models.Comment;
 

@@ -1,10 +1,10 @@
-package com.WeConnect.service;
-
-import java.util.List;
+package com.wc.weconnect.service;
 
 import com.WeConnect.exceptions.ChatException;
 import com.WeConnect.models.Chat;
 import com.WeConnect.models.User;
+
+import java.util.List;
 
 public interface ChatService {
 	

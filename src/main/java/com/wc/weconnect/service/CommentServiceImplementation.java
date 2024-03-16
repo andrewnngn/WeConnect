@@ -1,16 +1,15 @@
-package com.WeConnect.service;
-
-import java.time.LocalDateTime;
-import java.util.Optional;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+package com.wc.weconnect.service;
 
 import com.WeConnect.models.Comment;
 import com.WeConnect.models.Post;
 import com.WeConnect.models.User;
 import com.WeConnect.repository.CommentRepository;
 import com.WeConnect.repository.PostRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.time.LocalDateTime;
+import java.util.Optional;
 
 @Service
 public class CommentServiceImplementation implements CommentService{
