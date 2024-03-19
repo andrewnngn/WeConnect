@@ -1,17 +1,11 @@
-package com.WeConnect.Controller;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestHeader;
-import org.springframework.web.bind.annotation.RestController;
+package com.wc.weconnect.Controller;
 
 import com.WeConnect.models.Comment;
 import com.WeConnect.models.User;
 import com.WeConnect.service.CommentService;
 import com.WeConnect.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class CommentController {

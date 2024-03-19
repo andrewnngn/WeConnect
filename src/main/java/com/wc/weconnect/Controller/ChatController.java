@@ -1,13 +1,4 @@
-package com.WeConnect.Controller;
-
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestHeader;
-import org.springframework.web.bind.annotation.RestController;
+package com.wc.weconnect.Controller;
 
 import com.WeConnect.exceptions.ChatException;
 import com.WeConnect.exceptions.UserException;
@@ -16,6 +7,10 @@ import com.WeConnect.models.User;
 import com.WeConnect.request.CreateChatRequest;
 import com.WeConnect.service.ChatService;
 import com.WeConnect.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 public class ChatController {

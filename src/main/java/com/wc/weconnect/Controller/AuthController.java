@@ -1,5 +1,12 @@
-package com.WeConnect.Controller;
+package com.wc.weconnect.Controller;
 
+import com.WeConnect.config.JwtProvider;
+import com.WeConnect.models.User;
+import com.WeConnect.repository.UserRepository;
+import com.WeConnect.request.LoginRequest;
+import com.WeConnect.response.AuthResponse;
+import com.WeConnect.service.CustomUserDetailsService;
+import com.WeConnect.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -10,14 +17,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.WeConnect.config.JwtProvider;
-import com.WeConnect.models.User;
-import com.WeConnect.repository.UserRepository;
-import com.WeConnect.request.LoginRequest;
-import com.WeConnect.response.AuthResponse;
-import com.WeConnect.service.CustomUserDetailsService;
-import com.WeConnect.service.UserService;
 
 @RestController
 @RequestMapping("/auth")
