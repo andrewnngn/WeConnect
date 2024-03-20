@@ -1,8 +1,8 @@
 // Building a RESTful User API
 package com.wc.weconnect.service;
 
-import com.WeConnect.exceptions.UserException;
-import com.WeConnect.models.User;
+import com.wc.weconnect.exceptions.UserException;
+import com.wc.weconnect.models.User;
 
 import java.util.List;
 

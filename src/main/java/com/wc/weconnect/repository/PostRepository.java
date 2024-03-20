@@ -1,6 +1,6 @@
 package com.wc.weconnect.repository;
 
-import com.WeConnect.models.Post;
+import com.wc.weconnect.models.Post;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

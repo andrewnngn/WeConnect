@@ -1,6 +1,6 @@
 package com.wc.weconnect.repository;
 
-import com.WeConnect.models.Message;
+import com.wc.weconnect.models.Message;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,9 +1,9 @@
 package com.wc.weconnect.Controller;
 
-import com.WeConnect.models.Reels;
-import com.WeConnect.models.User;
-import com.WeConnect.service.ReelsService;
-import com.WeConnect.service.UserService;
+import com.wc.weconnect.models.Reels;
+import com.wc.weconnect.models.User;
+import com.wc.weconnect.service.ReelsService;
+import com.wc.weconnect.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

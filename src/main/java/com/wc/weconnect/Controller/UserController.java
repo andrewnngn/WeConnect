@@ -1,9 +1,9 @@
 package com.wc.weconnect.Controller;
 
-import com.WeConnect.exceptions.UserException;
-import com.WeConnect.models.User;
-import com.WeConnect.repository.UserRepository;
-import com.WeConnect.service.UserService;
+import com.wc.weconnect.exceptions.UserException;
+import com.wc.weconnect.models.User;
+import com.wc.weconnect.repository.UserRepository;
+import com.wc.weconnect.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

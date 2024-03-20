@@ -1,6 +1,6 @@
 package com.wc.weconnect.repository;
 
-import com.WeConnect.models.User;
+import com.wc.weconnect.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

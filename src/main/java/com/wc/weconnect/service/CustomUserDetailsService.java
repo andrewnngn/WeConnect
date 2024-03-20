@@ -1,8 +1,8 @@
 // stop generating by default password
 package com.wc.weconnect.service;
 
-import com.WeConnect.models.User;
-import com.WeConnect.repository.UserRepository;
+import com.wc.weconnect.models.User;
+import com.wc.weconnect.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

@@ -1,6 +1,6 @@
 package com.wc.weconnect.service;
 
-import com.WeConnect.models.Comment;
+import com.wc.weconnect.models.Comment;
 
 public interface CommentService {
 	

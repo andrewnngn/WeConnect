@@ -1,10 +1,10 @@
 package com.wc.weconnect.Controller;
 
-import com.WeConnect.models.Post;
-import com.WeConnect.models.User;
-import com.WeConnect.response.ApiResponse;
-import com.WeConnect.service.PostService;
-import com.WeConnect.service.UserService;
+import com.wc.weconnect.models.Post;
+import com.wc.weconnect.models.User;
+import com.wc.weconnect.response.ApiResponse;
+import com.wc.weconnect.service.PostService;
+import com.wc.weconnect.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

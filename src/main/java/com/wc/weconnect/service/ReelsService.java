@@ -1,7 +1,7 @@
 package com.wc.weconnect.service;
 
-import com.WeConnect.models.Reels;
-import com.WeConnect.models.User;
+import com.wc.weconnect.models.Reels;
+import com.wc.weconnect.models.User;
 
 import java.util.List;
 

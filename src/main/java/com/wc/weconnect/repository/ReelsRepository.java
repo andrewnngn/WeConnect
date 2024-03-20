@@ -1,6 +1,6 @@
 package com.wc.weconnect.repository;
 
-import com.WeConnect.models.Reels;
+import com.wc.weconnect.models.Reels;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

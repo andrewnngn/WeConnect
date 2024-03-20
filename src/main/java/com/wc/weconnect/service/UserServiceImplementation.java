@@ -1,9 +1,9 @@
 package com.wc.weconnect.service;
 
-import com.WeConnect.config.JwtProvider;
-import com.WeConnect.exceptions.UserException;
-import com.WeConnect.models.User;
-import com.WeConnect.repository.UserRepository;
+import com.wc.weconnect.config.JwtProvider;
+import com.wc.weconnect.exceptions.UserException;
+import com.wc.weconnect.models.User;
+import com.wc.weconnect.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

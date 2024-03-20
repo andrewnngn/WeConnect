@@ -1,12 +1,12 @@
 package com.wc.weconnect.Controller;
 
-import com.WeConnect.exceptions.ChatException;
-import com.WeConnect.exceptions.UserException;
-import com.WeConnect.models.Chat;
-import com.WeConnect.models.User;
-import com.WeConnect.request.CreateChatRequest;
-import com.WeConnect.service.ChatService;
-import com.WeConnect.service.UserService;
+import com.wc.weconnect.exceptions.ChatException;
+import com.wc.weconnect.exceptions.UserException;
+import com.wc.weconnect.models.Chat;
+import com.wc.weconnect.models.User;
+import com.wc.weconnect.request.CreateChatRequest;
+import com.wc.weconnect.service.ChatService;
+import com.wc.weconnect.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

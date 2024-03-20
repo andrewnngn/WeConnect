@@ -1,6 +1,6 @@
 package com.wc.weconnect.service;
 
-import com.WeConnect.models.Post;
+import com.wc.weconnect.models.Post;
 
 import java.util.List;
 

@@ -1,8 +1,8 @@
 package com.wc.weconnect.service;
 
-import com.WeConnect.models.Story;
-import com.WeConnect.models.User;
-import com.WeConnect.repository.StoryRepository;
+import com.wc.weconnect.models.Story;
+import com.wc.weconnect.models.User;
+import com.wc.weconnect.repository.StoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

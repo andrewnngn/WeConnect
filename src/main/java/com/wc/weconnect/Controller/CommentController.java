@@ -1,9 +1,9 @@
 package com.wc.weconnect.Controller;
 
-import com.WeConnect.models.Comment;
-import com.WeConnect.models.User;
-import com.WeConnect.service.CommentService;
-import com.WeConnect.service.UserService;
+import com.wc.weconnect.models.Comment;
+import com.wc.weconnect.models.User;
+import com.wc.weconnect.service.CommentService;
+import com.wc.weconnect.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

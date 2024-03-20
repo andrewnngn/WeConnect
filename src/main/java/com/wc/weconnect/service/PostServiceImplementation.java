@@ -1,9 +1,9 @@
 package com.wc.weconnect.service;
 
-import com.WeConnect.models.Post;
-import com.WeConnect.models.User;
-import com.WeConnect.repository.PostRepository;
-import com.WeConnect.repository.UserRepository;
+import com.wc.weconnect.models.Post;
+import com.wc.weconnect.models.User;
+import com.wc.weconnect.repository.PostRepository;
+import com.wc.weconnect.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

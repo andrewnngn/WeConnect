@@ -1,9 +1,9 @@
 package com.wc.weconnect.service;
 
-import com.WeConnect.exceptions.ChatException;
-import com.WeConnect.models.Chat;
-import com.WeConnect.models.User;
-import com.WeConnect.repository.ChatRepository;
+import com.wc.weconnect.exceptions.ChatException;
+import com.wc.weconnect.models.Chat;
+import com.wc.weconnect.models.User;
+import com.wc.weconnect.repository.ChatRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

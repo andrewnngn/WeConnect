@@ -1,10 +1,10 @@
 package com.wc.weconnect.service;
 
-import com.WeConnect.models.Chat;
-import com.WeConnect.models.Message;
-import com.WeConnect.models.User;
-import com.WeConnect.repository.ChatRepository;
-import com.WeConnect.repository.MessageRepository;
+import com.wc.weconnect.models.Chat;
+import com.wc.weconnect.models.Message;
+import com.wc.weconnect.models.User;
+import com.wc.weconnect.repository.ChatRepository;
+import com.wc.weconnect.repository.MessageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

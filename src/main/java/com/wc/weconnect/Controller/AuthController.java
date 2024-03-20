@@ -1,12 +1,12 @@
 package com.wc.weconnect.Controller;
 
-import com.WeConnect.config.JwtProvider;
-import com.WeConnect.models.User;
-import com.WeConnect.repository.UserRepository;
-import com.WeConnect.request.LoginRequest;
-import com.WeConnect.response.AuthResponse;
-import com.WeConnect.service.CustomUserDetailsService;
-import com.WeConnect.service.UserService;
+import com.wc.weconnect.config.JwtProvider;
+import com.wc.weconnect.models.User;
+import com.wc.weconnect.repository.UserRepository;
+import com.wc.weconnect.request.LoginRequest;
+import com.wc.weconnect.response.AuthResponse;
+import com.wc.weconnect.service.CustomUserDetailsService;
+import com.wc.weconnect.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
